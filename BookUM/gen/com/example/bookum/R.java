@@ -31,27 +31,30 @@ public final class R {
         public static final int buy_button=0x7f020002;
         public static final int ic_launcher=0x7f020003;
         public static final int jean_victor_balin_unknown_red=0x7f020004;
-        public static final int sell_button_v2=0x7f020005;
+        public static final int our_team=0x7f020005;
+        public static final int sell_button_v2=0x7f020006;
     }
     public static final class id {
         public static final int AboutButton=0x7f090004;
-        public static final int Button2=0x7f09000c;
+        public static final int Button2=0x7f09000e;
         public static final int BuyButton=0x7f090002;
-        public static final int EditText1=0x7f090005;
-        public static final int EditText2=0x7f090006;
-        public static final int EditText3=0x7f090007;
-        public static final int EditText4=0x7f090009;
-        public static final int EditText5=0x7f09000b;
+        public static final int EditText1=0x7f090007;
+        public static final int EditText2=0x7f090008;
+        public static final int EditText3=0x7f090009;
+        public static final int EditText4=0x7f09000b;
+        public static final int EditText5=0x7f09000d;
         public static final int ImageView01=0x7f090001;
+        public static final int OurPic=0x7f090006;
         public static final int SellButton=0x7f090003;
-        public static final int action_settings=0x7f090011;
-        public static final int bookID=0x7f09000f;
-        public static final int checkBox1=0x7f090008;
-        public static final int checkBox2=0x7f09000a;
-        public static final int classID=0x7f09000d;
+        public static final int action_settings=0x7f090013;
+        public static final int bookID=0x7f090011;
+        public static final int checkBox1=0x7f09000a;
+        public static final int checkBox2=0x7f09000c;
+        public static final int classID=0x7f09000f;
         public static final int edit_message=0x7f090000;
-        public static final int emailID=0x7f09000e;
-        public static final int zone_list=0x7f090010;
+        public static final int emailID=0x7f090010;
+        public static final int view1=0x7f090005;
+        public static final int zone_list=0x7f090012;
     }
     public static final class layout {
         public static final int activity_book_search=0x7f030000;

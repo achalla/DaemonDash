@@ -41,12 +41,12 @@ public class ClassQueryAdapter extends ParseQueryAdapter<Book>{
 		
 		super.getItemView(book, v, parent);
 		
-		//book.getEMail....etc look in book class
+		
 		
 		String bookName = book.getBookId();
 		String email = book.getEmail();
 		String bookSwap = book.getBookSwap();
-	
+		String val = book.getPrice();
 		
 		
 		TextView emailID = (TextView) v.findViewById(R.id.emailID);

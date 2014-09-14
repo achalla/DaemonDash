@@ -11,17 +11,17 @@
     android:orientation="vertical">
 
     <EditText android:id="@+id/edit_message"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:hint="Course (Ex. Format CMSC131)" />
+        android:hint="Course (Ex. CMSC131)" />
     
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Search"
         android:textColor="@color/white"
-        android:layout_toRightOf="@+id/edit_message"
+        android:layout_below="@+id/edit_message"
         android:onClick="sendMessage" />
     
    <ImageView
