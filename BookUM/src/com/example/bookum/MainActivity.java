@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 		if(savedInstanceState == null){
 
 			ParseObject.registerSubclass(Book.class);
-			Parse.initialize(this, "PLHcywIdzlkT1HKZtQI3zk2ex39kYEEfP0eLHVKT", "g5FvKgw6GNYRIYXEE16u4bhPzct1MuaqRvbz6LAD");
+			Parse.initialize(this, "FxD4tHMvuTpHjAAq5qih8GFhnXWnXF7oAn8vh348", "V49i44AfmGo5Vwqp8kqxWsiHcsPWjNc9UeXsRZhG");
 
 		}
 

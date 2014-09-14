@@ -47,16 +47,23 @@ public class ClassQueryAdapter extends ParseQueryAdapter<Book>{
 		String email = book.getEmail();
 		String bookSwap = book.getBookSwap();
 		String val = book.getPrice();
+		String val2 = "$";
+		val2 = val2+val;
 		
+		email = "Contact info: " + email;
+		val2 = "Book selling price: " + val2;
+		bookSwap = "Book willing to swap for: " + bookSwap;
+		bookName = "Book for sale: " + bookName;
 		
 		TextView emailID = (TextView) v.findViewById(R.id.emailID);
 		TextView classID = (TextView) v.findViewById(R.id.classID);
 		TextView bookID = (TextView) v.findViewById(R.id.bookID);
+		TextView priceID = (TextView) v.findViewById(R.id.priceID);
 		
-		
-		classID.setText(bookName);
 		emailID.setText(email);
+		classID.setText(bookName);
 		bookID.setText(bookSwap);
+		priceID.setText(val2);
 		
 		
 		

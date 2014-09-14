@@ -46,15 +46,16 @@ public final class R {
         public static final int ImageView01=0x7f090001;
         public static final int OurPic=0x7f090006;
         public static final int SellButton=0x7f090003;
-        public static final int action_settings=0x7f090013;
+        public static final int action_settings=0x7f090014;
         public static final int bookID=0x7f090011;
         public static final int checkBox1=0x7f09000a;
         public static final int checkBox2=0x7f09000c;
         public static final int classID=0x7f09000f;
         public static final int edit_message=0x7f090000;
         public static final int emailID=0x7f090010;
+        public static final int priceID=0x7f090012;
         public static final int view1=0x7f090005;
-        public static final int zone_list=0x7f090012;
+        public static final int zone_list=0x7f090013;
     }
     public static final class layout {
         public static final int activity_book_search=0x7f030000;
