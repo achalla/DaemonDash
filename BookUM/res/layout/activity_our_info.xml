@@ -13,16 +13,9 @@
         android:id="@+id/view1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome Everybody! We are a team of Undergraduate students here at University of Maryland who gathered together to go on a quest of developing a technology or application with the theme of sustainability. Our motives for BookUm (pronounced Book-em) was to solve our college class mates biggest dilemma! Every semester we are conned into buying ridiculously over-priced textbooks and being dooped into getting nothing in return for them at the end of the semester. BookUM provides our fellow Terps with a way of either putting their books for sale and easy access to our classmates, or placing a value on another textbook that you're willing to trade for. This allows us to not only recycle our books, save resources, but also save MONEY! Let's be honest, Thirsty Thursdays can hurt our pockets a bit, so a couple hundred bucks can go a long way! 
-        
-        Our team developed this app for the DaemonDash Hackathon Competition where we were only alotted 24 hours to come up with the APP. We hope you enjoy it and use it to not only better our environment but to save money as well!!! " />
-
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/view1"
-        android:text="The RunTime Terrors: Anu, Omid, Joseph and Yash."
+        android:layout_above="@+id/OurPic"
+        android:layout_alignParentTop="true"
+        android:text="Welcome everybody! We are a team of undergraduate students here at University of Maryland who created BookUm (pronounced Book-em) in the name of sustainability to solve our college classmates' biggest dilemma! Every semester we are conned into buying over-priced textbooks and getting ripped off at the end of the semester when we trade them in. BookUM lets our fellow Terps either put their books for sale directly to our classmates, or swap for another textbook they're willing to trade for. This allows us to not only recycle our books and save resources, but also save MONEY! Our team developed this app for the Daemon Dash Hackathon Competition where we were allotted only 24 hours to come up with the app. We hope you enjoy it and use it to not only better our environment, but to save money as well!!! -The RunTime Terrors: Anu, Omid, Joseph and Yash."
     />
     
     <ImageView
