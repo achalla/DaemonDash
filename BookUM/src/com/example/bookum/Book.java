@@ -43,6 +43,7 @@ public class Book extends ParseObject {
 	
 	public int getPrice(){
 		return getInt("price");
+		
 	}
 	
 	public String getEmail(){

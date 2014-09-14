@@ -11,30 +11,43 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.view.View.OnClickListener;
- 
+
 public class MainActivity extends Activity {
-	
-	ImageView sellButton, buyButton;
-	
-	
+
+	ImageView sellButton, buyButton, aboutButton;
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		if(savedInstanceState == null){
-			
+
 			ParseObject.registerSubclass(Book.class);
-			Parse.initialize(this, "yJiVEoRJqHd0PV33FrTCx5vHnaPJHQnTAutkeAxq", "Yphmu7xj3nTy8VptUZ2mi9YLH85dYITzEcHRqoD6");
-		
+			Parse.initialize(this, "PLHcywIdzlkT1HKZtQI3zk2ex39kYEEfP0eLHVKT", "g5FvKgw6GNYRIYXEE16u4bhPzct1MuaqRvbz6LAD");
+
 		}
-		
+
 		buyListener();
 		sellListener();
+		aboutListener();
+	}
+
+	public void aboutListener() {
+		aboutButton = (ImageView) findViewById(R.id.AboutButton);
+		aboutButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent0 = new Intent (MainActivity.this, OurInfoActivity.class);
+				startActivity(intent0);
+			}
+		
+		});
 	}
 
 
-	
 	public void buyListener() {
 		buyButton = (ImageView) findViewById(R.id.BuyButton);
 		buyButton.setOnClickListener(new OnClickListener() {
@@ -43,12 +56,12 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent intent1 = new Intent(MainActivity.this, BookSearchActivity.class);
 				startActivity(intent1);
-				
+
 			}
-			
-			
+
+
 		});
-	
+
 	}
 	public void sellListener() {
 		sellButton = (ImageView) findViewById(R.id.SellButton);
@@ -58,9 +71,12 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent intent2 = new Intent(MainActivity.this, SellBookListActivity.class);
 				startActivity(intent2);
-				
+
 			}
-			
+
 		});
 	}
-}
+
+	}
+
+
