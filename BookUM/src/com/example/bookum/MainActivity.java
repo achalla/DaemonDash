@@ -22,8 +22,12 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		ParseObject.registerSubclass(Book.class);
-		Parse.initialize(this, "j09kUykKeeqkzecORp4TxEaayTydJkdFHEhJia9U", "4IfpjmQZuwz5cSOTTXvOp1vp1e88GRFuK2o6lgJQ");
+		if(savedInstanceState == null){
+			
+			ParseObject.registerSubclass(Book.class);
+			Parse.initialize(this, "yJiVEoRJqHd0PV33FrTCx5vHnaPJHQnTAutkeAxq", "Yphmu7xj3nTy8VptUZ2mi9YLH85dYITzEcHRqoD6");
+		
+		}
 		
 		buyListener();
 		sellListener();

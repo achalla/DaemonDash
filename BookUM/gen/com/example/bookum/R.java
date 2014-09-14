@@ -26,19 +26,18 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int Money=0x7f020001;
-        public static final int Untitled=0x7f020002;
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int Button1=0x7f090007;
-        public static final int Button2=0x7f090009;
+        public static final int Button2=0x7f09000a;
         public static final int BuyButton=0x7f090001;
         public static final int EditText1=0x7f090003;
         public static final int EditText2=0x7f090004;
         public static final int EditText3=0x7f090005;
+        public static final int EditText4=0x7f090007;
+        public static final int EditText5=0x7f090009;
         public static final int SellButton=0x7f090002;
-        public static final int action_settings=0x7f09000a;
+        public static final int action_settings=0x7f09000b;
         public static final int checkBox1=0x7f090006;
         public static final int checkBox2=0x7f090008;
         public static final int textView1=0x7f090000;
@@ -56,13 +55,13 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
-        public static final int dollar_sign=0x7f05000b;
+        public static final int edit_amount=0x7f05000c;
+        public static final int edit_book_name=0x7f050009;
         public static final int edit_contact_info=0x7f050005;
         public static final int edit_course_name=0x7f050006;
         public static final int edit_sell=0x7f05000a;
-        public static final int edit_submit=0x7f05000c;
+        public static final int edit_submit=0x7f05000b;
         public static final int edit_swap=0x7f050008;
-        public static final int edit_swap2=0x7f050009;
         public static final int edit_textbook_name=0x7f050007;
         public static final int hello_world=0x7f050001;
         public static final int title_activity_buy_book_list=0x7f050003;
