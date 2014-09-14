@@ -4,6 +4,7 @@ import com.parse.ParseException;
 import com.parse.SaveCallback;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -38,15 +39,50 @@ public class SellBookListActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				book.setClassId(classId.getText().toString());
-				book.setBookId(bookId.getText().toString());
-				book.setBookSwap(bookSwap.getText().toString());
-				book.setPrice(Integer.parseInt(price.getText().toString()));
-				book.setEmail(email.getText().toString());
-				book.saveInBackground();
-
-				Intent i = new Intent(SellBookListActivity.this, SuccessfulSubmitActivity.class);
-				startActivity(i);
+				if (classId.getText().toString().equals("") == false){
+					book.setClassId(classId.getText().toString());
+					if (bookId.getText().toString().equals("") == false){
+						book.setBookId(bookId.getText().toString());
+						if (bookSwap.getText().toString().equals("") == false || price.getText().toString().equals("") == false){
+							if (bookSwap.getText().toString().equals("") == false){
+								book.setBookSwap(bookSwap.getText().toString());
+							}
+							if (price.getText().toString().equals("") == false){
+								book.setPrice(price.getText().toString());
+							}
+							if (email.getText().toString().equals("") == false){
+								book.setEmail(email.getText().toString());
+								book.saveInBackground();
+								Intent i = new Intent(SellBookListActivity.this, SuccessfulSubmitActivity.class);
+								startActivity(i);
+							} else { 
+								Context context = getApplicationContext();
+								int duration = Toast.LENGTH_SHORT;
+								CharSequence text = "Please enter your email.";
+								Toast toast = Toast.makeText(context, text, duration);
+								toast.show();			
+							}
+						} else { 
+							Context context = getApplicationContext();
+							int duration = Toast.LENGTH_SHORT;
+							CharSequence text = "You must swap or sell.";
+							Toast toast = Toast.makeText(context, text, duration);
+							toast.show();
+						}
+					} else {
+						Context context = getApplicationContext();
+						int duration = Toast.LENGTH_SHORT;
+						CharSequence text = "Please enter a book name.";
+						Toast toast = Toast.makeText(context, text, duration);
+						toast.show();		
+					}
+				} else {
+					Context context = getApplicationContext();
+					int duration = Toast.LENGTH_SHORT;
+					CharSequence text = "Please enter a class ID.";
+					Toast toast = Toast.makeText(context, text, duration);
+					toast.show();
+				}
 			}
 		});
 	}

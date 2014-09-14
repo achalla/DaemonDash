@@ -21,7 +21,7 @@ public class Book extends ParseObject {
 		put("bookSwap", bookSwap);
 	}
 	
-	public void setPrice(int price){
+	public void setPrice(String price){
 		put("price", price);
 	}
 	
@@ -41,8 +41,8 @@ public class Book extends ParseObject {
 		return getString("bookSwap");
 	}
 	
-	public int getPrice(){
-		return getInt("price");
+	public String getPrice(){
+		return getString("price");
 		
 	}
 	
