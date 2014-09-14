@@ -10,12 +10,11 @@
 	<string name="edit_course_name">Enter the course name (Ex. CMSC131)</string>
 	<string name="edit_textbook_name">Enter the name of your textbook</string>
 	<string name="edit_swap">Swappable</string>
-	<string name="edit_swap2">Swap</string>
+	<string name="edit_book_name">(Ex. Intro To Algorithms)</string>
 	<string name="edit_sell">Sellable</string>
-	<string name="dollar_sign">$</string>
 	<string name="edit_submit">submit</string>
+	<string name="edit_amount">Enter amount in Dollars (Ex. 55)</string>
 	<color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <drawable name="Money">#000000</drawable>
-    <drawable name="Untitled">#000000</drawable>
+    
 </resources>
