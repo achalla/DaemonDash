@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				Intent intent1 = new Intent(MainActivity.this, BuyBookListActivity.class);
+				Intent intent1 = new Intent(MainActivity.this, BookSearchActivity.class);
 				startActivity(intent1);
 				
 			}

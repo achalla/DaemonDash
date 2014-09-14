@@ -37,20 +37,25 @@ public final class R {
         public static final int EditText4=0x7f090007;
         public static final int EditText5=0x7f090009;
         public static final int SellButton=0x7f090002;
-        public static final int action_settings=0x7f09000b;
+        public static final int action_settings=0x7f09000d;
         public static final int checkBox1=0x7f090006;
         public static final int checkBox2=0x7f090008;
-        public static final int textView1=0x7f090000;
+        public static final int classID=0x7f09000b;
+        public static final int edit_message=0x7f090000;
+        public static final int zone_list=0x7f09000c;
     }
     public static final class layout {
-        public static final int activity_buy_book_list=0x7f030000;
+        public static final int activity_book_search=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_sell_book_list=0x7f030002;
+        public static final int class_list_items=0x7f030003;
+        public static final int list_layout=0x7f030004;
     }
     public static final class menu {
-        public static final int buy_book_list=0x7f080000;
-        public static final int main=0x7f080001;
-        public static final int sell_book_list=0x7f080002;
+        public static final int book_search=0x7f080000;
+        public static final int buy_book_list=0x7f080001;
+        public static final int main=0x7f080002;
+        public static final int sell_book_list=0x7f080003;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
@@ -64,6 +69,7 @@ public final class R {
         public static final int edit_swap=0x7f050008;
         public static final int edit_textbook_name=0x7f050007;
         public static final int hello_world=0x7f050001;
+        public static final int title_activity_book_search=0x7f05000d;
         public static final int title_activity_buy_book_list=0x7f050003;
         public static final int title_activity_sell_book_list=0x7f050004;
     }
