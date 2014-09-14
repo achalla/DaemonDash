@@ -18,6 +18,7 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
 
+    <string name="title_activity_successful_submit"></string>
     <string name="title_activity_book_search">BookSearchActivity</string>
 
 </resources>

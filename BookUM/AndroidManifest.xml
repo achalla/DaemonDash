@@ -34,6 +34,10 @@
             android:label="@string/title_activity_sell_book_list" >
         </activity>
         <activity
+            android:name=".SuccessfulSubmitActivity"
+            android:label="@string/title_activity_successful_submit" >
+        </activity>
+        <activity
             android:name=".BookSearchActivity"
             android:label="@string/title_activity_book_search" >
         </activity>
